@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-font-smoothing: antialised;
+    -moz-font-smoothing: antialised;
+    text-rendering: optimizeLegibility;    
+}
+
+body{
+    font-family: open sans-serif;
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 30px;
+    color: #777;
+    background: #2c333a;
+}
+
+.container{
+    max-width: 400px;
+    width: 100%;
+    margin: 0 auto;
+    position: relative;
+}
+    
+#contact{
+    background: #f9f9f9;
+    padding: 25px;
+    margin: 50px 0;
+}
+
+#contact h3{
+    color: #00838f;
+    display: block;
+    font-size: 30px;
+    font-weight: 400;
+}
+#contact h4{
+    margin: 5px 0 15px;
+    display: block;
+    font-size: 13px;
+}
+fieldset{
+    border: medium none !important;
+    margin: 0 0 10px;
+    min-width: 100%;
+}
+#contact input[type="text"], #contact input[type="text"], #contact input[type="text"]{
+width: 100%;
+border: 1px solic #ccc;
+background: #fff;
+margin: 0 0 5px;
+padding: 10px;
+}
+#nominate{
+    color: white;
+    font-size: 15px;
+}
