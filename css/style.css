@@ -18,6 +18,7 @@ body{
     background-attachment: fixed; 
 }
 
+
 .header{
     width: 100vw;
     height: 50px;
@@ -225,8 +226,8 @@ body{
     width: 100%;
     top: 0;
     position: fixed;
-    margin: 0;
-    padding: 5px;
+    margin:0;
+    padding: 8px;
 }
 .about-title :nth-child(2){
     margin-left: 55%;
@@ -248,6 +249,14 @@ body{
     }
 } */
 
+.content-wrapper{
+    width: 1024px; max-width: 1600px; margin: 0 auto;
+    background-color: #e4e8ea;
+    padding: 10px;
+}
+.page-header{
+    padding-top: 20px;
+}
 .container {
     display: flex;
     align-items: center;
