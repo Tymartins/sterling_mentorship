@@ -24,8 +24,21 @@ body{
     /* background-attachment: fixed;  */
 }
 
-
-
+.header{
+    width: 100vw;
+    height: 50px;
+    position: fixed;
+    z-index: 100;
+    margin: 0px;
+    background-color: azure;
+    top: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-left: 8%;
+    padding-right: 8%;
+    box-shadow: 2px 2px 2px grey;
+}
 
 .userDescription{
     display: flex;
@@ -205,8 +218,8 @@ body{
     width: 100%;
     top: 0;
     position: fixed;
-    margin: 0;
-    padding: 5px;
+    margin:0;
+    padding: 8px;
 }
 .about-title :nth-child(2){
     margin-left: 55%;
@@ -228,3 +241,36 @@ body{
     }
 } */
 
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center
+  }
+  
+  img {
+    width: 100%;
+    border-radius: 30px;
+  }
+  
+.image {
+    flex-basis: 70%;
+}
+  
+  .text {
+    font-size: 20px;
+    padding-left: 10px;
+    color: black;
+    justify-content: center;
+  }
+
+  .button {
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
