@@ -218,9 +218,9 @@ body{
     padding: 10px;
 } 
 .about-title{
-    background-color: #e31919;
+    background-color: rgb(219, 53, 58);
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    color: white;
+    color: rgb(255, 255, 255);
     align-content: center;
     font-weight: bold;
     width: 100%;
@@ -251,7 +251,7 @@ body{
 
 .content-wrapper{
     width: 1024px; max-width: 1600px; margin: 0 auto;
-    background-color: #e4e8ea;
+    background-color:rgb(255, 255, 255);
     padding: 10px;
 }
 .page-header{
