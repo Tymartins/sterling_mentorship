@@ -70,16 +70,16 @@ body{
   align-items: center;
 }
 .image{
-  width: 50%;
+  width: 70%;
 }
 .image img{
   border-radius: 20px;
-  width: 400px;
-  height: 350px;
+  width: 500px;
+  height: 400px;
 }
 .mentor_desc{
-  width: 30%;
-  margin-right: 10%;
+  width: 25%;
+  margin-right: 5%;
 }
 .mentor_desc a{
   background-color: coral;
@@ -92,7 +92,7 @@ body{
 .about-men{
   align-items: center;
   align-content: center;
-  background-color: aquamarine;
+  background-color: rgb(201, 199, 199);
   padding: 5%;
   display: flex;
   flex-wrap: wrap;
@@ -110,31 +110,69 @@ body{
   border-radius: 10px;
 }
 
-.offerings{
+.offerings h2{
+  text-align: center;
+  padding-top: 5%; 
+}
+
+.offer_desc{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 0% 5%;
+  align-content: center;
+  align-items: center;
+  padding-bottom: 5%;
+}
+
+.offer_desc div{
+  background-color: gray;
+  border-radius: 10px;
+  padding: 2%;
+  width: 20%;
+  color: white;
+}
+
+.why{
+  background-color: rgb(201, 199, 199);
+}
+.why h2{
+  /* color: white; */
+  padding-bottom: 10px;
+  font-weight: bolder;
+}
+.why_mentor{
   align-items: center;
   align-content: center;
+  /* background-color: rgb(201, 199, 199); */
   padding: 5%;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
 }
-.offer_img{
-  width: 40%;
+.why_desc{
+  width: 60%;
 }
-.offer_img img{
+.why_img{
+  width: 30%;
+}
+.why_img img{
   width: 400px;
   height: 350px;
   border-radius: 10px;
 }
-.offer_desc{
-  width: 50%;
-  font-weight: bold;
+
+footer{
+  background-color: grey;
+  height: 50px;
+  align-items: center;
+  text-align: center;
+  align-content: center;
 }
-
-
-
-
-
+.footer p{
+  padding-top: 20px;
+  color: white;
+}
 
 
 
