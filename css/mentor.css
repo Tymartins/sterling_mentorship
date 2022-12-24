@@ -139,3 +139,10 @@ body{
     padding-top: 20px;
     color: white;
   }
+
+  .checked {
+    color: orange;
+  }
+  .unchecked {
+    color: lightgrey;
+  }
