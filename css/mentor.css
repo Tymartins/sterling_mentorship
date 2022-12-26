@@ -75,10 +75,28 @@ body{
 }
 
 
+.mentor_type{
+  align-items: center;
+  text-align: center;
+}
+
+.mentor_page{
+  align-items: center;
+  text-align: center;
+  background-color: white;
+  padding-bottom: 5%;
+  width: 100%;
+  /* max-width: 1320px; */
+}
+/* .tittle{
+  text-align: center;
+  padding-bottom: 2%;
+} */
 .mentor{
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between; 
+  justify-content: space-between;
+  margin:5%; 
 }
 
 .mentor div{
@@ -108,6 +126,7 @@ body{
   width: 100%;
   position: relative;
   height: 200px;
+  border-radius: 10px;
 }
 .mentor div a{
   text-decoration: none;
