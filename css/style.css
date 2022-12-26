@@ -143,6 +143,12 @@ body{
     margin-left: 80px;
     padding: 10px;
 } 
+
+.img{
+    width: 95%;
+    border-radius: 3%;
+}
+
 .about-title{
     background-color: rgb(219, 53, 58);
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -158,6 +164,84 @@ body{
 .about-title :nth-child(2){
     margin-left: 55%;
 }
+
+.offerings h2{
+    text-align: center;
+    padding-top: 5%; 
+  }
+  
+  .offer_desc{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    /* padding: 0% 5%; */
+    align-content: center;
+    /* align-items: center; */
+    /* padding-bottom: 5%; */
+  }
+  
+  .offer_desc div{
+    background-color: gray;
+    border-radius: 10px;
+    padding: 2%;
+    width: 20%;
+    color: white;
+  }
+  
+  fieldset{
+    border-style: none;
+  }
+
+  .school{
+    align-content: center;
+    align-items: center; 
+  }
+
+.school h2{
+    text-align: center;
+    /* padding-top: 5%; */
+    /* background-color: #2ec5ca; */
+}
+
+.pro_desc div{
+    background-color: gray;
+    border-radius: 10px;
+    padding: 2%;
+    width: 100%;
+    color: white;
+}
+
+.bloom{
+    align-content: center;
+    align-items: center; 
+  }
+
+  .network_was div{
+    background-color: gray;
+    border-radius: 10px;
+    padding: 2%;
+    width: 100%;
+    color: white;
+}
+
+.bloom h2{
+    align-content: center;
+    align-items: center;
+    text-align: center;
+    /* padding-top: 5%; */
+  }
+
+  .arrow{
+    border: solid black;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 3px;
+  }
+
+.right{
+    transform: rotate(135deg);
+    -webkit-transform: rotate(135deg);
+  }
 .about-bar{
     font-size: 20px; 
     margin-left: 80px;
@@ -189,8 +273,22 @@ body{
     justify-content: center
   }
   
+  footer{
+    background-color: grey;
+    height: 50px;
+    align-items: center;
+    text-align: center;
+    align-content: center;
+  }
+  .footer p{
+    padding-top: 20px;
+    color: white;
+  }
 
-  
+  a{
+    text-decoration: none;
+    color:rgb(219, 53, 58);
+  }  
 
   .button {
     border: none;
